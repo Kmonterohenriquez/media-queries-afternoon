@@ -1,12 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Alatsi&display=swap");
 * {
   margin: 0;
   text-decoration: none;
   list-style: none;
 }
 
+.sm-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+}
+
 .container {
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
   max-width: 1400px;
 }
 

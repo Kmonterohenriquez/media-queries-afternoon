@@ -1,11 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
+import './Services.css'
 
 function Services(){
     return(
         <div className='Services-container'>
-            <div className='Services container'>
-                <h1 className=''>Services</h1>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div className='Services sm-container'>
+                <h1 className='Services-title'>Services</h1>
+                <p className='Services-subtitle'>Lorem ipsum dolor sit amet consectetur.</p>
                 <div className='Services-cards-container grid-container'>
                     <div className='Services-card'>
                         <div className='circle'>

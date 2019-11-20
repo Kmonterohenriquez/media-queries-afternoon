@@ -1,0 +1,47 @@
+@import '../../App'
+.Footer-container
+    padding: 30px
+
+.Footer-grid-container
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+
+
+    .box
+        height: 80px
+        display: flex
+        justify-content: center
+        align-items: center
+
+        // Links
+        a 
+            color: $yellow
+            padding: 5px
+            cursor: pointer
+            font-size: 1.1rem
+
+            &:hover
+                text-decoration: underline
+    .social-media
+        display: flex
+
+        .circle
+            height: 50px
+            width: 50px
+            background: #212529
+            border-radius: 50px
+            margin-right: 10px
+            transition: background .3s ease-in-out
+
+            display: flex
+            justify-content: center
+            align-items: center
+
+            &:hover
+                background: $yellow
+            
+            i   
+                color: white
+                
+
+

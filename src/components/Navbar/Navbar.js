@@ -13,11 +13,11 @@ function Navbar(){
                 {/* Menu */}
                 <nav className='Navbar-menu'>
                     <ul>
-                        <li><a href='#'>services</a></li>
-                        <li><a href='#'>portfolio</a></li>
-                        <li><a href='#'>about</a></li>
-                        <li><a href='#'>team</a></li>
-                        <li><a href='#'>contact</a></li>
+                        <li><a href='/'>services</a></li>
+                        <li><a href='/'>portfolio</a></li>
+                        <li><a href='/'>about</a></li>
+                        <li><a href='/'>team</a></li>
+                        <li><a href='/'>contact</a></li>
                     </ul>
                 </nav>
             </div>    

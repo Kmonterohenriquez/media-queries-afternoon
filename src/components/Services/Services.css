@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css?family=Alatsi&display=swap");
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.sm-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1400px;
+}
+
+.Services-container {
+  padding: 100px 0;
+}
+
+.Services-title, .Services-subtitle {
+  text-align: center;
+}
+
+.Services-title {
+  font-size: 2.8rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+  font-family: 'Alatsi', sans-serif;
+}
+
+.Services h1 {
+  text-align: center;
+}
+
+.Services-subtitle {
+  margin-bottom: 70px;
+}
+
+.Services p {
+  color: #6c757d !important;
+  text-align: center;
+}
+
+.Services-cards-container .Services-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Services-cards-container .Services-card .circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  background: #FED136;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.Services-cards-container .Services-card .circle i {
+  color: white;
+  font-size: 3.8rem;
+}
+
+.Services-cards-container .Services-card h1 {
+  margin-bottom: 15px;
+  font-family: 'Alatsi', sans-serif;
+  font-size: 1.6rem;
+}
+
+.Services-cards-container .Services-card p {
+  line-height: 1.5rem;
+  color: #6c757d !important;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(220px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-gap: 30px;
+}
+/*# sourceMappingURL=Services.css.map */

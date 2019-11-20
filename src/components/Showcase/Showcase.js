@@ -7,7 +7,7 @@ class Showcase extends Component {
     render() {
         return (
             <div className='Showcase'>
-                <img className='Showcase-pic' src={showcasePic} alt='Showcase picture'/>
+                <img className='Showcase-pic' src={showcasePic} alt='Showcase'/>
                 <div className='Showcase-content'>
                     <h2>Welcome to our Studio!</h2>
                     <h1>It's nice to meet you</h1>

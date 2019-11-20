@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Alatsi&display=swap");
+* {
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.sm-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1400px;
+}
+
+.Portfolio {
+  padding: 100px 0;
+  background: #F8F9FA;
+}
+
+.Portfolio-title, .Portfolio-subtitle {
+  text-align: center;
+}
+
+.Portfolio-title {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 2.5rem;
+  font-family: 'Alatsi', sans-serif;
+  letter-spacing: 2.5px;
+}
+
+.Portfolio-subtitle {
+  margin-bottom: 60px;
+  color: #6c757d !important;
+}
+
+.box {
+  height: 300px;
+  background: white;
+}
+
+.box h1, .box p {
+  text-align: center;
+}
+
+.box p {
+  color: #6c757d !important;
+  margin-top: 3px;
+}
+
+.box-picture {
+  position: relative;
+  height: 200px;
+  background: red;
+}
+
+.box img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  height: 200px;
+  width: 100%;
+}
+
+.box-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+}
+
+.box-info h1 {
+  font-family: 'Alatsi', sans-serif;
+  letter-spacing: 1px;
+  font-size: 1.6rem;
+}
+/*# sourceMappingURL=Portfolio.css.map */
